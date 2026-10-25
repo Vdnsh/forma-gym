@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#0b1014" />
+    <meta name="description" content="A focused Monday push a workout with animated exercise guides and set tracking." />
+    <title>Monday Push — Forma</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="./script.js" defer></script>
+  </head>
+  <body data-day="monday">
+    <div class="site-shell">
+      <header class="topbar">
+        <a class="brand" href="./index.html" aria-label="Forma, go to the weekly home page"><span class="brand-mark" aria-hidden="true"><span></span><span></span><span></span></span><span>forma<span class="brand-dot">.</span></span></a>
+        <div class="topbar-right"><span class="week-label">WEEKLY PLAN <strong>01 / 06</strong></span><span class="profile-mark" aria-label="Personal workout">V</span></div>
+      </header>
+
+      <nav class="day-navigation" aria-label="Workout navigation"><a class="back-link" href="./index.html"><span aria-hidden="true">←</span> Back to week</a><span>DAY 01 / 06</span></nav>
+
+      <main id="top">
+        <section class="hero" aria-labelledby="day-title">
+          <div class="hero-copy">
+            <div class="eyebrow"><span class="eyebrow-line"></span> YOUR TRAINING / MONDAY</div>
+            <h1 id="day-title">Push <em>day.</em></h1>
+            <p class="hero-subtitle">Build strength, move with intention. Chest, shoulders and triceps, all in one focused session.</p>
+            <div class="hero-meta" aria-label="Workout summary">
+              <div><span class="meta-icon" aria-hidden="true">◷</span><strong>75 min</strong><small>SESSION</small></div>
+              <div><span class="meta-icon" aria-hidden="true">↗</span><strong>5 moves</strong><small>STRENGTH</small></div>
+              <div><span class="meta-icon" aria-hidden="true">◌</span><strong>20 min</strong><small>CARDIO</small></div>
+            </div>
+          </div>
+          <div class="hero-orbit" aria-hidden="true"><span class="orbit orbit-one"></span><span class="orbit orbit-two"></span><span class="orbit orbit-three"></span><div class="orbit-center"><span>MOVE</span><strong>01</strong><span>WITH INTENT</span></div></div>
+        </section>
+
+        <section class="session-strip" aria-labelledby="session-heading">
+          <div class="section-heading"><div><span class="section-kicker">THE FLOW</span><h2 id="session-heading">Your 75-minute session</h2></div><span class="section-aside">START TO FINISH</span></div>
+          <ol class="timeline">
+            <li><span class="timeline-time">00–10</span><span class="timeline-dot"></span><span class="timeline-name">Warm up</span><span class="timeline-note">Easy cardio</span></li>
+            <li><span class="timeline-time">10–25</span><span class="timeline-dot"></span><span class="timeline-name">First lift</span><span class="timeline-note">Bench press</span></li>
+            <li><span class="timeline-time">25–60</span><span class="timeline-dot"></span><span class="timeline-name">Strength</span><span class="timeline-note">4 more moves</span></li>
+            <li><span class="timeline-time">60–70</span><span class="timeline-dot"></span><span class="timeline-name">Cardio</span><span class="timeline-note">Brisk pace</span></li>
+            <li><span class="timeline-time">70–75</span><span class="timeline-dot"></span><span class="timeline-name">Cool down</span><span class="timeline-note">Easy walk</span></li>
+          </ol>
+        </section>
+
+        <section class="workout" aria-labelledby="workout-heading">
+          <div class="section-heading workout-heading"><div><span class="section-kicker">MONDAY / PUSH A</span><h2 id="workout-heading">Today’s exercises</h2></div><div class="progress-display"><span id="progress-count">0 of 5 complete</span><span class="progress-track"><span id="progress-fill"></span></span></div></div>
+          <p class="workout-intro">Log at least 12 reps and the weight used for every set. Tap a movement to see its looping form guide.</p>
+
+          <div class="exercise-list" id="exercise-list"></div>
+        </section>
+
+        <section class="finish-card"><div><span class="section-kicker">FINISH STRONG</span><h2>Ten more minutes.<br /><em>Then you’re done.</em></h2><p>Keep your final cardio at a brisk, conversational pace. Finish with five easy minutes to cool down.</p></div><div class="finish-icon" aria-hidden="true"><span>↗</span></div></section>
+        <a class="end-back" href="./index.html"><span aria-hidden="true">←</span> Back to your week</a>
+      </main>
+      <footer><span>FORMA / PERSONAL TRAINING</span><span>ONE DAY AT A TIME.</span></footer>
+    </div>
+  </body>
+</html>
